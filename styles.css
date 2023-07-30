@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #2d4059;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Arial Black", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p.contact-info {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+section {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.intro {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.education-list,
+.certifications-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+}
+
+.education-list li,
+.certifications-list li {
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+
+h2 + ul li:first-child {
+    margin-top: 0;
+}
+
+p.hobbies {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.resume-image img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2d4059;
+    color: #fff;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.certifications-list li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0a0101;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.education-list h3 {
+    margin-bottom: 5px;
+    color: #2d4059;
+}
+
+.education-list p {
+    margin: 0;
+}
+.hobbies {
+    font-style: italic;
+    color: #555;
+}
